@@ -1,10 +1,10 @@
-local opt = vim.opt 
+local opt = vim.opt
 
 -- line numbers
 opt.relativenumber = true
 opt.number = true
 
--- tabs & identation 
+-- tabs & identation
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
@@ -25,15 +25,16 @@ opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
 
--- backspace 
+-- backspace
 opt.backspace = "indent,eol,start"
 
--- clipboard 
+-- clipboard
 -- opt.clipboard:append("unnamedplus")
 
 -- split windows
 opt.splitright = true
-opt.splitbelow = true 
+opt.splitbelow = true
 
 -- misc
 opt.iskeyword:append("-")
+opt.updatetime = 100
