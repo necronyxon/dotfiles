@@ -39,7 +39,6 @@ return packer.startup(function(use)
 	-- essential plugins
 	use("Mofiqul/dracula.nvim") -- dracula colorscheme
 	use("tpope/vim-surround") -- add, delete, change surroundings
-	use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 	use("numToStr/Comment.nvim") -- comment using gc
 
 	-- quality of life plugins
